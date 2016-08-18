@@ -1,0 +1,17 @@
+﻿@model IEnumerable<SistemaComparacaoAutomatica.MVC.ViewModels.ClientesViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body data-ng-app="SistemaComparacaoAutomatica">
+    <div>
+        <div data-ng-view>
+
+        </div>
+    </div>
+</body>
+@section scripts{
+    <script src="~/App/Cliente/Index.js"></script>
+}
+

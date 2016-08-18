@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "ShowAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="ClienteShowAllController">
+    <h2>{{title}}</h2>
+
+    <p>
+        <a href="/Cliente/Create">Inserir Cliente</a>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Sobrenome
+            </th>
+            <th>
+                Endereço
+            </th>
+            <th>
+                Bairro
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                CEP
+            </th>
+            <th>
+                Complemento
+            </th>
+            <th>
+                Número
+            </th>
+            <th>
+                Data de Nascimento
+            </th>
+            <th>
+                UF
+            </th>
+            <th></th>
+        </tr>
+
+        <tr ng-repeat="cliente in clientes">
+            <td>
+                {{cliente.Nome}}
+            </td>
+            <td>
+                {{cliente.Sobrenome}}
+            </td>
+            <td>
+                {{cliente.Endereco.EnderecoCliente}}
+            </td>
+            <td>
+                {{cliente.Endereco.Bairro}}
+            </td>
+            <td>
+                {{cliente.Endereco.Cidade}}
+            </td>
+            <td>
+                {{cliente.Endereco.Cep.CepCod}}
+            </td>
+            <td>
+                {{cliente.Endereco.Complemento}}
+            </td>
+            <td>
+                {{cliente.Endereco.Numero}}
+            </td>
+            <td>
+                {{cliente.DataNascimento | date:'dd/MM/yyyy'}}
+            </td>
+            <td>
+                {{cliente.UF.Abreviatura}}
+            </td>
+            <td>
+                <a href="/kfldskf/{{cliente.CodCliente}}" class="glyphicon glyphicon-pencil"></a>
+                <a href="/kfldskf/{{cliente.CodCliente}}" class="glyphicon glyphicon-trash"></a>
+            </td>
+        </tr>
+    </table>
+</div>
+@section scripts{
+    <script src="~/App/Cliente/ShowAll.js"></script>
+}

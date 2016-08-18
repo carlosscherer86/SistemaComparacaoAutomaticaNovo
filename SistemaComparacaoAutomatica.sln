@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{FF0A2FF1-8BED-4B7C-80BB-BF48A1BEF75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.Domain", "SistemaComparacaoAutomatica.Domain\SistemaComparacaoAutomatica.Domain.csproj", "{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{94EB1518-7753-4F98-929F-14C2406DD5B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{EB2C902E-8887-419E-922A-46553DA16F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.CrossCutting", "SistemaComparacaoAutomatica.CrossCutting\SistemaComparacaoAutomatica.CrossCutting.csproj", "{F319D487-5DF1-4AA8-9937-0D36A871C755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{6E425552-0592-43E3-895D-F2EEB717973E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.Data", "SistemaComparacaoAutomatica.Repositories\SistemaComparacaoAutomatica.Data.csproj", "{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{B843879E-2D84-4825-B419-0F0280EE8A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.Service", "SistemaComparacaoAutomatica.Service\SistemaComparacaoAutomatica.Service.csproj", "{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{DDF76D53-DDC3-4518-B898-770507306BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.Application", "SistemaComparacaoAutomatica.Application\SistemaComparacaoAutomatica.Application.csproj", "{AC3954BD-2C7E-40CA-8953-44AF67D9004F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{A7517ACC-FC50-4A97-89BB-BD303AA69DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaComparacaoAutomatica.MVC", "SistemaComparacaoAutomatica.MVC\SistemaComparacaoAutomatica.MVC.csproj", "{1D56E52D-114F-45BA-B8F7-2BF46D3D048F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F319D487-5DF1-4AA8-9937-0D36A871C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F319D487-5DF1-4AA8-9937-0D36A871C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F319D487-5DF1-4AA8-9937-0D36A871C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F319D487-5DF1-4AA8-9937-0D36A871C755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3954BD-2C7E-40CA-8953-44AF67D9004F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3954BD-2C7E-40CA-8953-44AF67D9004F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3954BD-2C7E-40CA-8953-44AF67D9004F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3954BD-2C7E-40CA-8953-44AF67D9004F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D56E52D-114F-45BA-B8F7-2BF46D3D048F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D56E52D-114F-45BA-B8F7-2BF46D3D048F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D56E52D-114F-45BA-B8F7-2BF46D3D048F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D56E52D-114F-45BA-B8F7-2BF46D3D048F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EBAA9AC-6E26-4956-83D2-18E5F7C4936D} = {FF0A2FF1-8BED-4B7C-80BB-BF48A1BEF75B}
+		{EB2C902E-8887-419E-922A-46553DA16F8B} = {94EB1518-7753-4F98-929F-14C2406DD5B3}
+		{F319D487-5DF1-4AA8-9937-0D36A871C755} = {EB2C902E-8887-419E-922A-46553DA16F8B}
+		{6E425552-0592-43E3-895D-F2EEB717973E} = {94EB1518-7753-4F98-929F-14C2406DD5B3}
+		{E9DE00EE-A05C-4F45-AE3F-0DA1178039F1} = {6E425552-0592-43E3-895D-F2EEB717973E}
+		{2EFF7A54-63D1-4797-BCAB-7966EF4C3F20} = {B843879E-2D84-4825-B419-0F0280EE8A16}
+		{AC3954BD-2C7E-40CA-8953-44AF67D9004F} = {DDF76D53-DDC3-4518-B898-770507306BDD}
+		{1D56E52D-114F-45BA-B8F7-2BF46D3D048F} = {A7517ACC-FC50-4A97-89BB-BD303AA69DCC}
+	EndGlobalSection
+EndGlobal
