@@ -15,13 +15,13 @@
                 <label class="control-label ">Nome</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Nome" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Nome" ng-required="true" class="form-control text-box single-line" />
             </div>
             <div class="col-md-2">
                 <label class="control-label ">Sobrenome</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Sobrenome" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Sobrenome" ng-required="true" class="form-control text-box single-line" />
             </div>
         </div>
         <div class="form-group">
@@ -44,14 +44,14 @@
                 <label class="control-label ">Email</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Endereco" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Email.Endereco" ng-required="true" class="form-control text-box single-line" />
             </div>
 
             <div class="col-md-2">
                 <label class="control-label ">Endereço</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="EnderecoCliente" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.EnderecoCliente" ng-required="true" class="form-control text-box single-line" />
             </div>
         </div>
         <div class="form-group">
@@ -59,14 +59,14 @@
                 <label class="control-label ">Bairro</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Bairro" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.Bairro" ng-required="true" class="form-control text-box single-line" />
             </div>
 
             <div class="col-md-2">
                 <label class="control-label ">Cidade</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Cidade" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.Cidade" ng-required="true" class="form-control text-box single-line" />
             </div>
 
         </div>
@@ -75,14 +75,14 @@
                 <label class="control-label">Cep</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="CepCod" ng-required="true" cep-dir class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.Cep.CepCod" ng-required="true" cep-dir class="form-control text-box single-line" />
             </div>
 
             <div class="col-md-2">
                 <label class="control-label ">Complemento</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Complemento" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.Complemento" class="form-control text-box single-line" />
             </div>
         </div>
         <div class="form-group">
@@ -90,14 +90,14 @@
                 <label class="control-label ">Número</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="Numero" ng-required="true" class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.Endereco.Numero" ng-required="true" class="form-control text-box single-line" />
             </div>
 
             <div class="col-md-2">
                 <label class="control-label ">Data de Nascimento</label>
             </div>
             <div class="col-md-4">
-                <input type="text" ng-model="DataNascimento" ng-required="true" date-dir class="form-control text-box single-line" />
+                <input type="text" ng-model="cliente.DataNascimento" ng-required="true" date-dir class="form-control text-box single-line" />
             </div>
         </div>
         <div class="form-group">
@@ -105,14 +105,17 @@
                 <label class="control-label ">UF</label>
             </div>
             <div class="col-md-4">
-                <select ng-model="UF" ng-options="UF.CodUF as UF.Abreviatura for UF in UFs" class="form-control text-box single-line">
+                <select ng-model="cliente.UF" ng-options="UF.Abreviatura for UF in UFs" class="form-control text-box single-line">
                     
                 </select>
             </div>
         </div>
+        <div ng-show="showMessage" class="alert alert-danger">
+            {{message}}
+        </div>
         <div class="form-group">
             <div class="col-md-offset-8 col-md-4">
-                <input type="submit" value="Inserir Cliente" class="btn btn-primary" ng-disabled="clienteForm.$invalid" ng-click="setCliente()" />
+                <button class="btn btn-primary" ng-disabled="clienteForm.$invalid" ng-click="setCliente(cliente)" >Inserir Cliente</button>
             </div>
 
         </div>

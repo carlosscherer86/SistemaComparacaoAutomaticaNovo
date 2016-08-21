@@ -4,10 +4,7 @@ using Newtonsoft.Json.Converters;
 using SistemaComparacaoAutomatica.Application.Interface;
 using SistemaComparacaoAutomatica.Domain.Entities;
 using SistemaComparacaoAutomatica.MVC.ViewModels;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
 
@@ -66,12 +63,10 @@ namespace SistemaComparacaoAutomatica.MVC.Controllers
 
         // POST: Cliente/Create
         [HttpPost]
-        public ActionResult Create(ClientesViewModel cliente)
+        public void Create(ClientesViewModel cliente)
         {
             var ClienteDomain = Mapper.Map<ClientesViewModel, Cliente>(cliente);
             _ClienteAppService.Add(ClienteDomain);
-            return RedirectToAction("Index");
-            
         }
 
         // GET: Cliente/Edit/5
