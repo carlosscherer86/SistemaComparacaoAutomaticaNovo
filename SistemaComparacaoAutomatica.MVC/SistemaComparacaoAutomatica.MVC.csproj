@@ -159,12 +159,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\AppModule.js" />
-    <Content Include="App\Cliente\Create.js" />
+    <Content Include="App\Cliente\ClienteCreateController.js" />
     <Content Include="App\Cliente\ShowAll.js" />
     <Content Include="App\Diretivas\CepMask.js" />
     <Content Include="App\Diretivas\DataMask.js" />
     <Content Include="App\Diretivas\TelefoneMask.js" />
     <Content Include="App\Login\Login.js" />
+    <Content Include="App\Services\ClienteService.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />

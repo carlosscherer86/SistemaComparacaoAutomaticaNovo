@@ -98,5 +98,9 @@ namespace SistemaComparacaoAutomatica.Domain.Entities
                 throw new Exception("Senha Inválida!");
             }
         }
+        public bool IsEmailUnique()
+        {
+            return this.Email.Endereco == null;
+        }
     }
 }

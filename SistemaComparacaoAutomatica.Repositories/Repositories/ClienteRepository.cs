@@ -1,6 +1,8 @@
-﻿using SistemaComparacaoAutomatica.Data.Contexts;
+﻿using System;
+using SistemaComparacaoAutomatica.Data.Contexts;
 using SistemaComparacaoAutomatica.Domain.Entities;
 using SistemaComparacaoAutomatica.Domain.Interfaces.IRepositories;
+using System.Linq;
 
 namespace SistemaComparacaoAutomatica.Repositories.Repositories
 {
@@ -10,6 +12,11 @@ namespace SistemaComparacaoAutomatica.Repositories.Repositories
             : base(DataBase)
         {
                 
+        }
+
+        public Cliente GetClienteByEmail(string Email)
+        {
+            return _DataBase.Clientes.Where(c => c.Email.Endereco.Equals(Email)).FirstOrDefault();
         }
     }
 }

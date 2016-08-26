@@ -7,3 +7,12 @@ C:\Users\grazi\OneDrive\ProjetosVisualStudio\SistemaComparacaoAutomatica\Sistema
 C:\Users\grazi\OneDrive\ProjetosVisualStudio\SistemaComparacaoAutomatica\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.csprojResolveAssemblyReference.cache
 C:\Users\grazi\OneDrive\ProjetosVisualStudio\SistemaComparacaoAutomatica\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.dll
 C:\Users\grazi\OneDrive\ProjetosVisualStudio\SistemaComparacaoAutomatica\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.pdb
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.Service.dll
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.Service.pdb
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.Domain.dll
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.CrossCutting.dll
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.Domain.pdb
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\bin\Debug\SistemaComparacaoAutomatica.CrossCutting.pdb
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.csprojResolveAssemblyReference.cache
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.dll
+C:\Users\grazi\Documents\GitHub\SistemaComparacaoAutomaticaNovo\SistemaComparacaoAutomatica.Service\obj\Debug\SistemaComparacaoAutomatica.Service.pdb

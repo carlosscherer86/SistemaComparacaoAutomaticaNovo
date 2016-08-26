@@ -1,4 +1,5 @@
-﻿using SistemaComparacaoAutomatica.Application.Interface;
+﻿using System;
+using SistemaComparacaoAutomatica.Application.Interface;
 using SistemaComparacaoAutomatica.Domain.Entities;
 using SistemaComparacaoAutomatica.Domain.Interfaces.IServices;
 
@@ -12,6 +13,11 @@ namespace SistemaComparacaoAutomatica.Application
             :base(clienteService)
         {
             _ClienteService = clienteService;
+        }
+
+        public bool IsEmailUnique(string Email)
+        {
+           return _ClienteService.IsEmailUnique(Email);
         }
     }
 }
