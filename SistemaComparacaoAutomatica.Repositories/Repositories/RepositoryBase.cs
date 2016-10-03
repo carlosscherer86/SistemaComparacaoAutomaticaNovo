@@ -20,7 +20,13 @@ namespace SistemaComparacaoAutomatica.Repositories.Repositories
         public void Add(TEntity obj)
         {
             _DataBase.Set<TEntity>().Add(obj);
-            _DataBase.SaveChanges();
+            try
+            {
+                _DataBase.SaveChanges();
+            }catch(Exception e)
+            {
+                Console.Write(e.InnerException);
+            }
         }
 
         
